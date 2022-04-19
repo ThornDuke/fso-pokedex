@@ -11,7 +11,7 @@ jobs:
           echo "Hello World!"
       - name: Print date
         run: |
-          echo "Today is (date)"
+          echo "Today is $(date)"
       - name: Print dir
         run: |
-          echo "Current directory is: (ls)"
+          echo "Current directory is: $(ls)"
