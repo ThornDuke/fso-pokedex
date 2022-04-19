@@ -9,3 +9,9 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+      - name: Print date
+        run: |
+          echo "Today is (date)"
+      - name: Print dir
+        run: |
+          echo "Current directory is: (ls)"
