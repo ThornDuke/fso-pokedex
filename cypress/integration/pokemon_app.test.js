@@ -1,4 +1,4 @@
-import { cypress as cy } from 'cypress'
+// import { cypress as cy } from 'cypress'
 
 describe('Cypress - Pokemon app', () => {
   it('should open the application', () => {
